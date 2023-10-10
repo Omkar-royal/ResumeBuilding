@@ -1,0 +1,325 @@
+body{
+    background-color: aliceblue;
+    color: rgb(40, 189, 107);
+    
+   
+    background-color: black;
+}
+h2{
+    color: rgba(35, 94, 203, 0.844);
+}
+h3{
+    color: black;
+}
+p{
+    color: black;
+}
+ul{
+    color: black;
+}
+.main{
+
+    width: auto;
+    height: fit-content;
+    padding: 100px;
+    padding-top: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 30px rgba(251, 251, 251, 0.768);
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid black;
+    width: 100%;
+    padding-bottom: 0px;
+
+}
+.pic
+{
+    width: 30%;
+  
+}
+.name{
+    padding: 50px;
+    padding-top:100px ;
+    margin-left:65px;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    width: 30%;
+    align-items: baseline;    
+}
+.pic img{
+    width: 250px;
+    border-radius: 50%;
+    border-image-width: 100%;
+
+
+
+}
+.contactinfo{
+    width: 30%;
+    float: right;
+    align-items:end;
+    padding: 30px;
+    padding-left: 10px;
+     
+      font-size: medium;
+      padding-top: 15px;
+
+}
+ a{
+    text-decoration: none;
+}
+.contact{
+    float: right;
+    font-size: small;
+}
+.mainn{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+}
+.backgroundd{
+    width: 50%;
+   margin-right: 200px;
+   padding: 20px;
+}
+.edu{
+   
+}
+.achive{
+    width: 50%;
+    padding: 20px;
+    padding-left: 50px;
+    
+}
+ li{
+    padding: 5px ;
+}
+
+
+@media screen and (max-width: 780px) {
+   .main{
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    background: aliceblue;
+    border: 2px solid black;
+    
+   }
+   .header{
+    width: 100%;
+    border-bottom: 2px solid black;
+   }
+   body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    border: 1px solid transparent;
+   }
+   li{
+    padding: 4px ;
+    
+}
+
+   .pic{
+    margin: 0px;
+    padding: 0px;
+   }
+   .pic img{
+    height: auto ;
+    width: 100%;
+    width: 150px ;
+   }
+   .name{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    padding-top: 40px;
+   }
+   .name h1{
+        font-size: medium;
+   }
+   .contactinfo{
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    padding-left: 20px;
+   }
+   .contact{
+    padding: 0px;
+    font-size: 5px;
+    margin: 0px;
+    font-size: 10px;
+   }
+   
+   i{
+    
+   }
+   .mainn{
+    width: 100%;
+   }
+   .mainn h2{
+    font-size: small;
+   }
+   .mainn h3{
+    font-size: small;
+   }
+   .mainn p{
+    font-size: 10px;
+   }
+   .mainn ul{
+    font-size: 10px;
+   }
+   .backgroundd{
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding: 10px;
+    margin-top: 0px;
+   }
+
+   .edu{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+   }
+  
+   .backgroundd h3{
+    font-size: 12px;
+   }
+   .backgroundd p{
+    font-size: small;
+   }
+  
+   .achive{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 10px;
+   }
+   .achive h2{
+    font-size: medium;
+   
+   }
+   .achive ul{
+    font-size: 10px;
+   }
+
+}
+@media screen and (max-width: 1180px) {
+    .main{
+     margin: 10px;
+     padding: 0px;
+     width: 100%;
+    }
+    .header{
+     width: 100%;
+    }
+    body{
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+    }
+    li{
+     padding: 4px ;
+     
+ }
+ 
+    .pic{
+     margin: 0px;
+     padding: 0px;
+    }
+    .pic img{
+     height: auto ;
+     width: 100%;
+     width: 120px ;
+    }
+    .name{
+     margin: 0px;
+     padding: 0px;
+     align-items: center;
+     padding-top: 40px;
+     padding-right: 0px;
+    }
+    .name h1{
+         font-size: 20px;
+    }
+    .contactinfo{
+     font-size: px;
+     padding: 0px;
+     margin: 0px;
+     margin-top: 10px;
+     padding-left: 20px;
+    }
+    .contact{
+     padding: 0px;
+     font-size: 5px;
+     margin: 0px;
+    }
+    i{
+     
+    }
+    .mainn{
+     width: 100%;
+    }
+    .mainn h2{
+     font-size: large;
+    }
+    .mainn h3{
+     font-size: small;
+    }
+    .mainn p{
+     font-size: 10px;
+    }
+    .mainn ul{
+     font-size: 10px;
+    }
+    .backgroundd{
+     width: 100%;
+     margin: 0px;
+     padding-top: 10px;
+     padding: 10px;
+     margin-top: 0px;
+    }
+ 
+    .edu{
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+    }
+    .backgroundd h2{
+     font-size: medium;
+     padding: 5px;
+    }
+    .edu h3{
+     font-size: medium;
+    }
+    .edu p{
+     font-size: small;
+    }
+    .projects h3{
+     font-size: medium;
+ 
+    }
+    .projects p{
+     font-size: 10px;
+    }
+    .achive{
+     width: 100%;
+     margin: 0px;
+     padding: 10px;
+     padding-top: 10px;
+    }
+    .achive h2{
+     font-size: medium;
+    
+    }
+ 
+ }
